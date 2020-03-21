@@ -14,25 +14,25 @@ public class practico1 {
 
         }
 
-        for(int i=0; i< 100 ; i++){
+        for(int i=0; i< 10000000 ; i++){
             if(miArreglo[0] ==100* i +15){
                 contador++;
             }
         }
 
-        for(int i=0; i< 100 ; i++){
+        for(int i=0; i< 10000000 ; i++){
             if(miArreglo[1] ==100* i +15){
                 contador++;
             }
         }
 
-        for(int i=0; i< 100 ; i++){
+        for(int i=0; i< 10000000 ; i++){
             if(miArreglo[2] ==100* i +15){
                 contador++;
             }
         }
 
-        for(int i=0; i< 100 ; i++){
+        for(int i=0; i< 10000000 ; i++){
             if(miArreglo[3] ==100* i +15){
                 contador++;
             }
@@ -45,7 +45,7 @@ public class practico1 {
         }
 
 
-        System.out.println(contador+" números terminan en 15");
+        System.out.println(contador+" numeros terminan en 15");
 
     }
 }
